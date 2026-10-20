@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 480" width="560" height="480">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3355e0"/><stop offset="1" stop-color="#6a4cf0"/></linearGradient>
+<linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#f6f8ff"/></linearGradient>
+</defs>
+<circle cx="290" cy="240" r="200" fill="url(#bg)" opacity=".1"/>
+<circle cx="290" cy="240" r="140" fill="none" stroke="#3355e0" stroke-opacity=".25" stroke-dasharray="4 8" stroke-width="2"/>
+<circle cx="290" cy="240" r="210" fill="none" stroke="#3355e0" stroke-opacity=".15" stroke-width="2"/>
+<g stroke="#3355e0" stroke-width="2.5" stroke-opacity=".5" fill="none">
+<path d="M290 240 L130 120"/><path d="M290 240 L460 110"/><path d="M290 240 L110 360"/><path d="M290 240 L470 370"/><path d="M290 240 L300 50"/>
+</g>
+<!-- center hub -->
+<circle cx="290" cy="240" r="62" fill="url(#bg)"/>
+<circle cx="276" cy="252" r="12" fill="#fff"/>
+<path d="M276 222a30 30 0 0 1 30 30" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+<path d="M276 204a48 48 0 0 1 48 48" fill="none" stroke="#ff7a59" stroke-width="7" stroke-linecap="round"/>
+<!-- person nodes -->
+<g transform="translate(130 120)"><circle r="34" fill="#fff" stroke="#3355e0" stroke-width="4"/><circle cy="-8" r="10" fill="#3355e0"/><path d="M-17 18a17 15 0 0 1 34 0" fill="#3355e0"/></g><g transform="translate(460 110)"><circle r="34" fill="#fff" stroke="#ff7a59" stroke-width="4"/><circle cy="-8" r="10" fill="#ff7a59"/><path d="M-17 18a17 15 0 0 1 34 0" fill="#ff7a59"/></g><g transform="translate(110 360)"><circle r="34" fill="#fff" stroke="#ff7a59" stroke-width="4"/><circle cy="-8" r="10" fill="#ff7a59"/><path d="M-17 18a17 15 0 0 1 34 0" fill="#ff7a59"/></g><g transform="translate(470 370)"><circle r="34" fill="#fff" stroke="#3355e0" stroke-width="4"/><circle cy="-8" r="10" fill="#3355e0"/><path d="M-17 18a17 15 0 0 1 34 0" fill="#3355e0"/></g>
+<!-- cards -->
+<g transform="translate(330 20)"><rect width="150" height="56" rx="14" fill="url(#card)" stroke="#e2e7f2"/><rect x="14" y="14" width="28" height="28" rx="8" fill="#e8edff"/><path d="M21 28l5 5 9-10" stroke="#3355e0" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="52" y="17" width="80" height="8" rx="4" fill="#cfd7ea"/><rect x="52" y="31" width="56" height="8" rx="4" fill="#e2e7f2"/></g>
+<g transform="translate(20 210)"><rect width="140" height="64" rx="14" fill="url(#card)" stroke="#e2e7f2"/><text x="16" y="30" font-family="'Plus Jakarta Sans','Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="800" fill="#0e1a33">4.6</text><g fill="#ff7a59"><path transform="translate(52 17)" d="M6 0l1.8 3.9 4.2.5-3.1 2.9.8 4.2L6 9.4 2.3 11.5l.8-4.2L0 4.4l4.2-.5z"/><path transform="translate(67 17)" d="M6 0l1.8 3.9 4.2.5-3.1 2.9.8 4.2L6 9.4 2.3 11.5l.8-4.2L0 4.4l4.2-.5z"/><path transform="translate(82 17)" d="M6 0l1.8 3.9 4.2.5-3.1 2.9.8 4.2L6 9.4 2.3 11.5l.8-4.2L0 4.4l4.2-.5z"/><path transform="translate(97 17)" d="M6 0l1.8 3.9 4.2.5-3.1 2.9.8 4.2L6 9.4 2.3 11.5l.8-4.2L0 4.4l4.2-.5z"/><path transform="translate(112 17)" d="M6 0l1.8 3.9 4.2.5-3.1 2.9.8 4.2L6 9.4 2.3 11.5l.8-4.2L0 4.4l4.2-.5z"/></g><rect x="16" y="42" width="100" height="7" rx="3.5" fill="#e2e7f2"/></g>
+<g transform="translate(370 230)"><rect width="170" height="70" rx="14" fill="url(#card)" stroke="#e2e7f2"/><rect x="14" y="14" width="42" height="42" rx="10" fill="#ff7a59" opacity=".18"/><path d="M26 44V30h18v14M30 30v-4h10v4" stroke="#ff7a59" stroke-width="3" fill="none" stroke-linejoin="round"/><rect x="66" y="20" width="86" height="8" rx="4" fill="#cfd7ea"/><rect x="66" y="36" width="60" height="8" rx="4" fill="#e8edff"/></g>
+<g transform="translate(220 400)"><rect width="150" height="50" rx="25" fill="#0e1a33"/><circle cx="25" cy="25" r="12" fill="#ff7a59"/><text x="46" y="31" font-family="'Plus Jakarta Sans','Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#fff">Matched!</text></g>
+</svg>
